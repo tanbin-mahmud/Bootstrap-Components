@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Bootstrap Components">
+    <meta name="description" content="personal portfolio">
+    <meta name="keywords" content="html,html tutorial,">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="5 days">
+    <meta name="author" content="Tanbin Mahmud">
+
+    <!-- css link -->
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>Bootstrap Components</title>
+ 
+  </head> 
+  <body>
+    <div class="container">
+      <h2 align="center">Alert</h2>
+       
+      
+      <!-- alert -->
+
+   <div class="alert alert-warning">
+       <p class="mb-0">Lorem ipsum dolor sit amet <a href="https://www.facebook.com/tanbinmahmud75/"class="alert-link">fb</a>. Give it a click if you like.</p>
+ </div> 
+    </div>
+
+    <div class="container">
+     <div class="alert alert-success" role="alert">
+  <h4 class="alert-heading">Well done!</h4>
+  <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+  <hr>
+  <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+</div>
+    </div>
+
+
+    <div class="container">
+      <div class="alert c_alert alert-warning alert-dismissible fade show" role="alert">
+  <strong>Hello Everyone!</strong> You should check in on some of those fields below.
+  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
+    </div>
+
+    <div class="container">
+       <h2 align="center">Accordion Flush</h2>
+      <div class="row">
+        <div class="col-lg-12">
+          
+          <div class="accordion accordion-flush" id="acc_flush.ex">
+
+            <!-- item 1 -->
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="h_1">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c_1" aria-expanded="false" aria-controls="c_1">
+        Question #1
+      </button>
+    </h2>
+    <div id="c_1" class="accordion-collapse collapse" aria-labelledby="h_1" data-bs-parent="#acc_flush.ex">
+      <div class="accordion-body">
+        <p class="mb-0">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit</p>
+      </div>
+    </div>
+  </div>
+  
+  <!-- item 2-->
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="h_2">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c_2" aria-expanded="false" aria-controls="c_2">
+          Question #2
+      </button>
+    </h2>
+    <div id="c_2" class="accordion-collapse collapse" aria-labelledby="h_2" data-bs-parent="#acc_flush.ex">
+      <div class="accordion-body">
+        <p class="mb-0">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit</p>
+      </div>
+    </div>
+  </div>
+
+<!-- item 3 -->
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="h_3">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c_3" aria-expanded="false" aria-controls="c_3">
+          Question #3
+      </button>
+    </h2>
+    <div id="c_3" class="accordion-collapse collapse" aria-labelledby="h_3" data-bs-parent="#acc_flush.ex">
+      <div class="accordion-body">
+        <p class="mb-0">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit</p>
+      </div>
+    </div>
+  </div>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <br><br>
+
+    <div class="container">
+
+       <h2 align="center">Badge</h2>
+
+      <h3>Example heading <span class="badge bg-secondary">New</span></h3>
+      <h4>Example heading <span class="badge bg-secondary">New</span></h4>
+      <h5>Example heading <span class="badge bg-secondary">New</span></h5>
+      <h6>Example heading <span class="badge bg-secondary">New</span></h6>
+      
+      <br>
+      <br>
+
+
+      <button type="button" class="btn btn-primary">
+            Notifications <span class="badge text-bg-secondary">4</span>
+        </button>
+        <br>
+        <br>
+
+        <button type="button" class="btn btn-primary position-relative">
+            Inbox
+            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+              99+
+              <span class="visually-hidden">unread messages</span>
+            </span>
+          </button>
+          <br>
+          <br>
+
+          <h2 align="center">Button</h2>
+
+          <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+            <button type="button" class="btn btn-danger">Left</button>
+            <button type="button" class="btn btn-warning">Middle</button>
+            <button type="button" class="btn btn-success">Right</button>
+          </div>
+
+
+
+          <br>
+          <br>
+
+          <button type="button" class="btn btn-primary">Primary</button>
+          <button type="button" class="btn btn-secondary">Secondary</button>
+          <button type="button" class="btn btn-success">Success</button>
+          <button type="button" class="btn btn-danger">Danger</button>
+          <button type="button" class="btn btn-warning">Warning</button>
+          <button type="button" class="btn btn-info">Info</button>
+          <button type="button" class="btn btn-light">Light</button>
+          <button type="button" class="btn btn-dark">Dark</button>
+
+          <button type="button" class="btn btn-link">Link</button>
+          <br>
+          <br>
+  <div class="d-grid gap-2">
+      <button class="btn btn-primary" type="button">Submit</button>
+       
+  </div>
+
+         
+    </div>
+
+    <!-- js link -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/script.js"></script>
+
+
+    
+  </body>
+</html>  
